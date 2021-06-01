@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    background:url(./bg2.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 35px 10%;
+    justify-content: space-between;
+    
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+nav li a:hover
+{
+    color: green;
+}
+form
+{
+    text-align: center;
+    padding-left: 32%;
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.formbx
+{
+    width: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;  
+    
+}
+input
+{
+    height: 45px;
+    
+}
+form .txt
+{
+    width: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+form .submit
+{
+    background: green;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;    
+}
+form .submit:hover
+{
+    background-color: thistle;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.671);
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: white;
+}
+.about_us
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.about_us h2
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+   
+}
+.about_us p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px ;
+    font-size: 14px;
+}
+.footer_bottom
+{
+    background: black;
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_bottom p{
+    fontsize: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer_bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
